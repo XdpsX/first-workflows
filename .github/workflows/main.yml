@@ -14,6 +14,6 @@ jobs:
           echo "Hello World!"
           echo "Bye" > file.txt
           ls
-          echo file.txt
+          cat file.txt
       - name: Sleep step
-        run: sleep 20
+        run: sleep 5
