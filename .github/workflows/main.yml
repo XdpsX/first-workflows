@@ -18,7 +18,7 @@ jobs:
           ls
           cat file.txt
       - name: Sleep step
-        run: sleep 
+        run: sleep 5s
       - name: ls repo
         run: |
           ls
